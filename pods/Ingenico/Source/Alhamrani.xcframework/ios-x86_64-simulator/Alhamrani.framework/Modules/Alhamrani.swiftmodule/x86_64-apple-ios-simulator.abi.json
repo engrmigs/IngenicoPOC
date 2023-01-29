@@ -1,0 +1,509 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Alhamrani",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftSocket",
+        "printedName": "SwiftSocket",
+        "declKind": "Import",
+        "moduleName": "Alhamrani"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlhamraniDelegate",
+        "printedName": "AlhamraniDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceiveResponse",
+            "printedName": "didReceiveResponse(_response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9Alhamrani0A8DelegateP18didReceiveResponse9_responsey10Foundation4DataV_tF",
+            "mangledName": "$s9Alhamrani0A8DelegateP18didReceiveResponse9_responsey10Foundation4DataV_tF",
+            "moduleName": "Alhamrani",
+            "genericSig": "<τ_0_0 where τ_0_0 : Alhamrani.AlhamraniDelegate>",
+            "sugared_genericSig": "<Self where Self : Alhamrani.AlhamraniDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9Alhamrani0A8DelegateP",
+        "mangledName": "$s9Alhamrani0A8DelegateP",
+        "moduleName": "Alhamrani",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Alhamrani",
+        "printedName": "Alhamrani",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "Alhamrani.AlhamraniDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9AlhamraniAAC8delegateAA0A8Delegate_pSgvp",
+            "mangledName": "$s9AlhamraniAAC8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "Alhamrani",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Alhamrani.AlhamraniDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlhamraniDelegate",
+                        "printedName": "Alhamrani.AlhamraniDelegate",
+                        "usr": "s:9Alhamrani0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AlhamraniAAC8delegateAA0A8Delegate_pSgvg",
+                "mangledName": "$s9AlhamraniAAC8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "Alhamrani",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Alhamrani.AlhamraniDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlhamraniDelegate",
+                        "printedName": "Alhamrani.AlhamraniDelegate",
+                        "usr": "s:9Alhamrani0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AlhamraniAAC8delegateAA0A8Delegate_pSgvs",
+                "mangledName": "$s9AlhamraniAAC8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "Alhamrani",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9AlhamraniAAC8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s9AlhamraniAAC8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "Alhamrani",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connectToDevice",
+            "printedName": "connectToDevice(device_ip:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlhamraniAAC15connectToDevice9device_ipSbSS_tF",
+            "mangledName": "$s9AlhamraniAAC15connectToDevice9device_ipSbSS_tF",
+            "moduleName": "Alhamrani",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendECRRequest",
+            "printedName": "sendECRRequest(device_ip:msg_id:amount:ecr_no:ecr_receipt_no:field1:field2:field3:field4:field5:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlhamraniAAC14sendECRRequest9device_ip6msg_id6amount6ecr_no0i9_receipt_J06field16field26field36field46field5ySS_S9StF",
+            "mangledName": "$s9AlhamraniAAC14sendECRRequest9device_ip6msg_id6amount6ecr_no0i9_receipt_J06field16field26field36field46field5ySS_S9StF",
+            "moduleName": "Alhamrani",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendECRRequest2",
+            "printedName": "sendECRRequest2(device_ip:msg_id:amount:ecr_no:ecr_receipt_no:field1:field2:field3:field4:field5:interface_type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlhamraniAAC15sendECRRequest29device_ip6msg_id6amount6ecr_no0i9_receipt_J06field16field26field36field46field514interface_typeySS_S10StF",
+            "mangledName": "$s9AlhamraniAAC15sendECRRequest29device_ip6msg_id6amount6ecr_no0i9_receipt_J06field16field26field36field46field514interface_typeySS_S10StF",
+            "moduleName": "Alhamrani",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkDevice",
+            "printedName": "checkDevice(device_ip:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AlhamraniAAC11checkDevice9device_ipS2S_tF",
+            "mangledName": "$s9AlhamraniAAC11checkDevice9device_ipS2S_tF",
+            "moduleName": "Alhamrani",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Alhamrani",
+                "printedName": "Alhamrani.Alhamrani",
+                "usr": "c:@M@Alhamrani@objc(cs)Alhamrani"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Alhamrani@objc(cs)Alhamrani(im)init",
+            "mangledName": "$s9AlhamraniAACABycfc",
+            "moduleName": "Alhamrani",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Alhamrani@objc(cs)Alhamrani",
+        "mangledName": "$s9AlhamraniAAC",
+        "moduleName": "Alhamrani",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Applications\/Mobile Project\/Alhamrani\/Alhamrani\/Alhamrani.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Applications\/Mobile Project\/Alhamrani\/Alhamrani\/Alhamrani.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
