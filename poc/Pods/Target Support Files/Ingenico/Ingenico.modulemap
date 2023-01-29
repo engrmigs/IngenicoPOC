@@ -1,0 +1,6 @@
+framework module Ingenico {
+  umbrella header "Ingenico-umbrella.h"
+
+  export *
+  module * { export * }
+}

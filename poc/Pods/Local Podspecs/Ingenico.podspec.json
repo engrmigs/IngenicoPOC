@@ -1,0 +1,25 @@
+{
+  "name": "Ingenico",
+  "authors": {
+    "": ""
+  },
+  "license": {
+    "type": "."
+  },
+  "homepage": ".",
+  "source": {
+    "git": "",
+    "tag": "0.0.7"
+  },
+  "summary": ".",
+  "module_name": "Ingenico",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "requires_arc": true,
+  "source_files": "Source/**/*.{swift}",
+  "version": "0.0.7",
+  "ios": {
+    "vendored_frameworks": "Source/Alhamrani.xcframework"
+  }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Ingenico (0.0.7)
+
+DEPENDENCIES:
+  - Ingenico (from `../pods/Ingenico`)
+
+EXTERNAL SOURCES:
+  Ingenico:
+    :path: "../pods/Ingenico"
+
+SPEC CHECKSUMS:
+  Ingenico: d3f9f338444422333e8a67f73ed96382777960fc
+
+PODFILE CHECKSUM: 5913a9d7fea7c37dd24bdc6bcec3b60026a709a2
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-poc/Pods-poc-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Ingenico/Ingenico.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Ingenico/Alhamrani.framework/Alhamrani
