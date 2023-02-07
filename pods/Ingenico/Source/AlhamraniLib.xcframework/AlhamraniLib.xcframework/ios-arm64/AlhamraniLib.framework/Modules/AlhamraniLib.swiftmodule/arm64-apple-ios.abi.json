@@ -1,0 +1,2714 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlhamraniDelegate",
+        "printedName": "AlhamraniDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceiveResponse",
+            "printedName": "didReceiveResponse(_response:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib0A8DelegateP18didReceiveResponse9_responsey10Foundation4DataV_tF",
+            "mangledName": "$s12AlhamraniLib0A8DelegateP18didReceiveResponse9_responsey10Foundation4DataV_tF",
+            "moduleName": "AlhamraniLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : AlhamraniLib.AlhamraniDelegate>",
+            "sugared_genericSig": "<Self where Self : AlhamraniLib.AlhamraniDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12AlhamraniLib0A8DelegateP",
+        "mangledName": "$s12AlhamraniLib0A8DelegateP",
+        "moduleName": "AlhamraniLib",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Alhamrani",
+        "printedName": "Alhamrani",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "client",
+            "printedName": "client",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AlhamraniLib.TCPClient?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TCPClient",
+                    "printedName": "AlhamraniLib.TCPClient",
+                    "usr": "s:12AlhamraniLib9TCPClientC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib0A0C6clientAA9TCPClientCSgvp",
+            "mangledName": "$s12AlhamraniLib0A0C6clientAA9TCPClientCSgvp",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AlhamraniLib.TCPClient?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TCPClient",
+                        "printedName": "AlhamraniLib.TCPClient",
+                        "usr": "s:12AlhamraniLib9TCPClientC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C6clientAA9TCPClientCSgvg",
+                "mangledName": "$s12AlhamraniLib0A0C6clientAA9TCPClientCSgvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AlhamraniLib.TCPClient?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TCPClient",
+                        "printedName": "AlhamraniLib.TCPClient",
+                        "usr": "s:12AlhamraniLib9TCPClientC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C6clientAA9TCPClientCSgvs",
+                "mangledName": "$s12AlhamraniLib0A0C6clientAA9TCPClientCSgvs",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C6clientAA9TCPClientCSgvM",
+                "mangledName": "$s12AlhamraniLib0A0C6clientAA9TCPClientCSgvM",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AlhamraniLib.AlhamraniDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvp",
+            "mangledName": "$s12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AlhamraniLib.AlhamraniDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlhamraniDelegate",
+                        "printedName": "AlhamraniLib.AlhamraniDelegate",
+                        "usr": "s:12AlhamraniLib0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvg",
+                "mangledName": "$s12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AlhamraniLib.AlhamraniDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlhamraniDelegate",
+                        "printedName": "AlhamraniLib.AlhamraniDelegate",
+                        "usr": "s:12AlhamraniLib0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvs",
+                "mangledName": "$s12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s12AlhamraniLib0A0C8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isConnected",
+            "printedName": "isConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib0A0C11isConnectedSbvp",
+            "mangledName": "$s12AlhamraniLib0A0C11isConnectedSbvp",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C11isConnectedSbvg",
+                "mangledName": "$s12AlhamraniLib0A0C11isConnectedSbvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C11isConnectedSbvs",
+                "mangledName": "$s12AlhamraniLib0A0C11isConnectedSbvs",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C11isConnectedSbvM",
+                "mangledName": "$s12AlhamraniLib0A0C11isConnectedSbvM",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ip_device",
+            "printedName": "ip_device",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib0A0C9ip_deviceSSvp",
+            "mangledName": "$s12AlhamraniLib0A0C9ip_deviceSSvp",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C9ip_deviceSSvg",
+                "mangledName": "$s12AlhamraniLib0A0C9ip_deviceSSvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C9ip_deviceSSvs",
+                "mangledName": "$s12AlhamraniLib0A0C9ip_deviceSSvs",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib0A0C9ip_deviceSSvM",
+                "mangledName": "$s12AlhamraniLib0A0C9ip_deviceSSvM",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "connectToDevice",
+            "printedName": "connectToDevice(device_ip:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib0A0C15connectToDevice9device_ipSbSS_tF",
+            "mangledName": "$s12AlhamraniLib0A0C15connectToDevice9device_ipSbSS_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendECRRequest",
+            "printedName": "sendECRRequest(device_ip:msg_id:amount:ecr_no:ecr_receipt_no:field1:field2:field3:field4:field5:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib0A0C14sendECRRequest9device_ip6msg_id6amount6ecr_no0j9_receipt_K06field16field26field36field46field5ySS_S9StF",
+            "mangledName": "$s12AlhamraniLib0A0C14sendECRRequest9device_ip6msg_id6amount6ecr_no0j9_receipt_K06field16field26field36field46field5ySS_S9StF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkDevice",
+            "printedName": "checkDevice(device_ip:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib0A0C11checkDevice9device_ipS2S_tF",
+            "mangledName": "$s12AlhamraniLib0A0C11checkDevice9device_ipS2S_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Alhamrani",
+                "printedName": "AlhamraniLib.Alhamrani",
+                "usr": "c:@M@AlhamraniLib@objc(cs)Alhamrani"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AlhamraniLib@objc(cs)Alhamrani(im)init",
+            "mangledName": "$s12AlhamraniLib0A0CACycfc",
+            "moduleName": "AlhamraniLib",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AlhamraniLib@objc(cs)Alhamrani",
+        "mangledName": "$s12AlhamraniLib0A0C",
+        "moduleName": "AlhamraniLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "c_yudpsocket_server",
+        "printedName": "c_yudpsocket_server(_:port:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib19c_yudpsocket_server_4ports5Int32VSPys4Int8VG_AEtF",
+        "mangledName": "yudpsocket_server",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "c_yudpsocket_recive",
+        "printedName": "c_yudpsocket_recive(_:buff:len:ip:port:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int32>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib19c_yudpsocket_recive_4buff3len2ip4ports5Int32VAH_SPys5UInt8VGAHSPys4Int8VGSPyAHGtF",
+        "mangledName": "yudpsocket_recive",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "c_yudpsocket_close",
+        "printedName": "c_yudpsocket_close(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib18c_yudpsocket_closeys5Int32VADF",
+        "mangledName": "yudpsocket_close",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "c_yudpsocket_client",
+        "printedName": "c_yudpsocket_client()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib19c_yudpsocket_clients5Int32VyF",
+        "mangledName": "yudpsocket_client",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "c_yudpsocket_get_server_ip",
+        "printedName": "c_yudpsocket_get_server_ip(_:ip:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib26c_yudpsocket_get_server_ip_0F0s5Int32VSPys4Int8VG_AHtF",
+        "mangledName": "yudpsocket_get_server_ip",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "c_yudpsocket_sentto",
+        "printedName": "c_yudpsocket_sentto(_:buff:len:ip:port:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.UInt8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib19c_yudpsocket_sentto_4buff3len2ip4ports5Int32VAH_SPys5UInt8VGAHSPys4Int8VGAHtF",
+        "mangledName": "yudpsocket_sentto",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "c_enable_broadcast",
+        "printedName": "c_enable_broadcast(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12AlhamraniLib18c_enable_broadcastyys5Int32VF",
+        "mangledName": "enable_broadcast",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "SILGenName"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UDPClient",
+        "printedName": "UDPClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UDPClient",
+                "printedName": "AlhamraniLib.UDPClient",
+                "usr": "s:12AlhamraniLib9UDPClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlhamraniLib9UDPClientC7address4portACSS_s5Int32Vtcfc",
+            "mangledName": "$s12AlhamraniLib9UDPClientC7address4portACSS_s5Int32Vtcfc",
+            "moduleName": "AlhamraniLib",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPClientC4send4dataAA6ResultOSays5UInt8VG_tF",
+            "mangledName": "$s12AlhamraniLib9UDPClientC4send4dataAA6ResultOSays5UInt8VG_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPClientC4send6stringAA6ResultOSS_tF",
+            "mangledName": "$s12AlhamraniLib9UDPClientC4send6stringAA6ResultOSS_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableBroadcast",
+            "printedName": "enableBroadcast()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPClientC15enableBroadcastyyF",
+            "mangledName": "$s12AlhamraniLib9UDPClientC15enableBroadcastyyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPClientC4send4dataAA6ResultO10Foundation4DataV_tF",
+            "mangledName": "$s12AlhamraniLib9UDPClientC4send4dataAA6ResultO10Foundation4DataV_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recv",
+            "printedName": "recv(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "([Swift.UInt8]?, Swift.String, Swift.Int)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.UInt8]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPClientC4recvySays5UInt8VGSg_SSSitSiF",
+            "mangledName": "$s12AlhamraniLib9UDPClientC4recvySays5UInt8VGSg_SSSitSiF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPClientC5closeyyF",
+            "mangledName": "$s12AlhamraniLib9UDPClientC5closeyyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AlhamraniLib9UDPClientC",
+        "mangledName": "$s12AlhamraniLib9UDPClientC",
+        "moduleName": "AlhamraniLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:12AlhamraniLib6SocketC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AlhamraniLib.Socket"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UDPServer",
+        "printedName": "UDPServer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UDPServer",
+                "printedName": "AlhamraniLib.UDPServer",
+                "usr": "s:12AlhamraniLib9UDPServerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlhamraniLib9UDPServerC7address4portACSS_s5Int32Vtcfc",
+            "mangledName": "$s12AlhamraniLib9UDPServerC7address4portACSS_s5Int32Vtcfc",
+            "moduleName": "AlhamraniLib",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "recv",
+            "printedName": "recv(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "([Swift.UInt8]?, Swift.String, Swift.Int)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.UInt8]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPServerC4recvySays5UInt8VGSg_SSSitSiF",
+            "mangledName": "$s12AlhamraniLib9UDPServerC4recvySays5UInt8VGSg_SSSitSiF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9UDPServerC5closeyyF",
+            "mangledName": "$s12AlhamraniLib9UDPServerC5closeyyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AlhamraniLib9UDPServerC",
+        "mangledName": "$s12AlhamraniLib9UDPServerC",
+        "moduleName": "AlhamraniLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:12AlhamraniLib6SocketC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AlhamraniLib.Socket"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Socket",
+        "printedName": "Socket",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib6SocketC7addressSSvp",
+            "mangledName": "$s12AlhamraniLib6SocketC7addressSSvp",
+            "moduleName": "AlhamraniLib",
+            "declAttributes": [
+              "HasStorage",
+              "Final",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC7addressSSvg",
+                "mangledName": "$s12AlhamraniLib6SocketC7addressSSvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "port",
+            "printedName": "port",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib6SocketC4ports5Int32Vvp",
+            "mangledName": "$s12AlhamraniLib6SocketC4ports5Int32Vvp",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC4ports5Int32Vvg",
+                "mangledName": "$s12AlhamraniLib6SocketC4ports5Int32Vvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC4ports5Int32Vvs",
+                "mangledName": "$s12AlhamraniLib6SocketC4ports5Int32Vvs",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC4ports5Int32VvM",
+                "mangledName": "$s12AlhamraniLib6SocketC4ports5Int32VvM",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fd",
+            "printedName": "fd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib6SocketC2fds5Int32VSgvp",
+            "mangledName": "$s12AlhamraniLib6SocketC2fds5Int32VSgvp",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC2fds5Int32VSgvg",
+                "mangledName": "$s12AlhamraniLib6SocketC2fds5Int32VSgvg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int32?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC2fds5Int32VSgvs",
+                "mangledName": "$s12AlhamraniLib6SocketC2fds5Int32VSgvs",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6SocketC2fds5Int32VSgvM",
+                "mangledName": "$s12AlhamraniLib6SocketC2fds5Int32VSgvM",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Socket",
+                "printedName": "AlhamraniLib.Socket",
+                "usr": "s:12AlhamraniLib6SocketC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlhamraniLib6SocketC7address4portACSS_s5Int32Vtcfc",
+            "mangledName": "$s12AlhamraniLib6SocketC7address4portACSS_s5Int32Vtcfc",
+            "moduleName": "AlhamraniLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AlhamraniLib6SocketC",
+        "mangledName": "$s12AlhamraniLib6SocketC",
+        "moduleName": "AlhamraniLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SocketError",
+        "printedName": "SocketError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "queryFailed",
+            "printedName": "queryFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlhamraniLib.SocketError.Type) -> AlhamraniLib.SocketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketError",
+                    "printedName": "AlhamraniLib.SocketError",
+                    "usr": "s:12AlhamraniLib11SocketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlhamraniLib.SocketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketError",
+                        "printedName": "AlhamraniLib.SocketError",
+                        "usr": "s:12AlhamraniLib11SocketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlhamraniLib11SocketErrorO11queryFailedyA2CmF",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO11queryFailedyA2CmF",
+            "moduleName": "AlhamraniLib"
+          },
+          {
+            "kind": "Var",
+            "name": "connectionClosed",
+            "printedName": "connectionClosed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlhamraniLib.SocketError.Type) -> AlhamraniLib.SocketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketError",
+                    "printedName": "AlhamraniLib.SocketError",
+                    "usr": "s:12AlhamraniLib11SocketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlhamraniLib.SocketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketError",
+                        "printedName": "AlhamraniLib.SocketError",
+                        "usr": "s:12AlhamraniLib11SocketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlhamraniLib11SocketErrorO16connectionClosedyA2CmF",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO16connectionClosedyA2CmF",
+            "moduleName": "AlhamraniLib"
+          },
+          {
+            "kind": "Var",
+            "name": "connectionTimeout",
+            "printedName": "connectionTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlhamraniLib.SocketError.Type) -> AlhamraniLib.SocketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketError",
+                    "printedName": "AlhamraniLib.SocketError",
+                    "usr": "s:12AlhamraniLib11SocketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlhamraniLib.SocketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketError",
+                        "printedName": "AlhamraniLib.SocketError",
+                        "usr": "s:12AlhamraniLib11SocketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlhamraniLib11SocketErrorO17connectionTimeoutyA2CmF",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO17connectionTimeoutyA2CmF",
+            "moduleName": "AlhamraniLib"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlhamraniLib.SocketError.Type) -> AlhamraniLib.SocketError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SocketError",
+                    "printedName": "AlhamraniLib.SocketError",
+                    "usr": "s:12AlhamraniLib11SocketErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlhamraniLib.SocketError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SocketError",
+                        "printedName": "AlhamraniLib.SocketError",
+                        "usr": "s:12AlhamraniLib11SocketErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlhamraniLib11SocketErrorO07unknownD0yA2CmF",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO07unknownD0yA2CmF",
+            "moduleName": "AlhamraniLib"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SocketError",
+                "printedName": "AlhamraniLib.SocketError",
+                "usr": "s:12AlhamraniLib11SocketErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SocketError",
+                "printedName": "AlhamraniLib.SocketError",
+                "usr": "s:12AlhamraniLib11SocketErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib11SocketErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "AlhamraniLib",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib11SocketErrorO9hashValueSivp",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO9hashValueSivp",
+            "moduleName": "AlhamraniLib",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib11SocketErrorO9hashValueSivg",
+                "mangledName": "$s12AlhamraniLib11SocketErrorO9hashValueSivg",
+                "moduleName": "AlhamraniLib",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib11SocketErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12AlhamraniLib11SocketErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "AlhamraniLib",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AlhamraniLib11SocketErrorO",
+        "mangledName": "$s12AlhamraniLib11SocketErrorO",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlhamraniLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Result",
+        "printedName": "Result",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlhamraniLib.Result.Type) -> AlhamraniLib.Result",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "AlhamraniLib.Result",
+                    "usr": "s:12AlhamraniLib6ResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlhamraniLib.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "AlhamraniLib.Result",
+                        "usr": "s:12AlhamraniLib6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlhamraniLib6ResultO7successyA2CmF",
+            "mangledName": "$s12AlhamraniLib6ResultO7successyA2CmF",
+            "moduleName": "AlhamraniLib"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AlhamraniLib.Result.Type) -> (Swift.Error) -> AlhamraniLib.Result",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> AlhamraniLib.Result",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "AlhamraniLib.Result",
+                        "usr": "s:12AlhamraniLib6ResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AlhamraniLib.Result.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "AlhamraniLib.Result",
+                        "usr": "s:12AlhamraniLib6ResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AlhamraniLib6ResultO7failureyACs5Error_pcACmF",
+            "mangledName": "$s12AlhamraniLib6ResultO7failureyACs5Error_pcACmF",
+            "moduleName": "AlhamraniLib"
+          },
+          {
+            "kind": "Var",
+            "name": "isSuccess",
+            "printedName": "isSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib6ResultO9isSuccessSbvp",
+            "mangledName": "$s12AlhamraniLib6ResultO9isSuccessSbvp",
+            "moduleName": "AlhamraniLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6ResultO9isSuccessSbvg",
+                "mangledName": "$s12AlhamraniLib6ResultO9isSuccessSbvg",
+                "moduleName": "AlhamraniLib",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFailure",
+            "printedName": "isFailure",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib6ResultO9isFailureSbvp",
+            "mangledName": "$s12AlhamraniLib6ResultO9isFailureSbvp",
+            "moduleName": "AlhamraniLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6ResultO9isFailureSbvg",
+                "mangledName": "$s12AlhamraniLib6ResultO9isFailureSbvg",
+                "moduleName": "AlhamraniLib",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AlhamraniLib6ResultO5errors5Error_pSgvp",
+            "mangledName": "$s12AlhamraniLib6ResultO5errors5Error_pSgvp",
+            "moduleName": "AlhamraniLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AlhamraniLib6ResultO5errors5Error_pSgvg",
+                "mangledName": "$s12AlhamraniLib6ResultO5errors5Error_pSgvg",
+                "moduleName": "AlhamraniLib",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AlhamraniLib6ResultO",
+        "mangledName": "$s12AlhamraniLib6ResultO",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AlhamraniLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TCPClient",
+        "printedName": "TCPClient",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect(timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC7connect7timeoutAA6ResultOSi_tF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC7connect7timeoutAA6ResultOSi_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC5closeyyF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC5closeyyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC4send4dataAA6ResultOSays5UInt8VG_tF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC4send4dataAA6ResultOSays5UInt8VG_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC4send6stringAA6ResultOSS_tF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC4send6stringAA6ResultOSS_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC4send4dataAA6ResultO10Foundation4DataV_tF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC4send4dataAA6ResultO10Foundation4DataV_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read(_:timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.UInt8]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC4read_7timeoutSays5UInt8VGSgSi_SitF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC4read_7timeoutSays5UInt8VGSgSi_SitF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bytesAvailable",
+            "printedName": "bytesAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int32?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPClientC14bytesAvailables5Int32VSgyF",
+            "mangledName": "$s12AlhamraniLib9TCPClientC14bytesAvailables5Int32VSgyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TCPClient",
+                "printedName": "AlhamraniLib.TCPClient",
+                "usr": "s:12AlhamraniLib9TCPClientC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlhamraniLib9TCPClientC7address4portACSS_s5Int32Vtcfc",
+            "mangledName": "$s12AlhamraniLib9TCPClientC7address4portACSS_s5Int32Vtcfc",
+            "moduleName": "AlhamraniLib",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AlhamraniLib9TCPClientC",
+        "mangledName": "$s12AlhamraniLib9TCPClientC",
+        "moduleName": "AlhamraniLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:12AlhamraniLib6SocketC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AlhamraniLib.Socket"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TCPServer",
+        "printedName": "TCPServer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "listen",
+            "printedName": "listen()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "AlhamraniLib.Result",
+                "usr": "s:12AlhamraniLib6ResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPServerC6listenAA6ResultOyF",
+            "mangledName": "$s12AlhamraniLib9TCPServerC6listenAA6ResultOyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "accept",
+            "printedName": "accept(timeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AlhamraniLib.TCPClient?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TCPClient",
+                    "printedName": "AlhamraniLib.TCPClient",
+                    "usr": "s:12AlhamraniLib9TCPClientC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "hasDefaultArg": true,
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPServerC6accept7timeoutAA9TCPClientCSgs5Int32V_tF",
+            "mangledName": "$s12AlhamraniLib9TCPServerC6accept7timeoutAA9TCPClientCSgs5Int32V_tF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "close",
+            "printedName": "close()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AlhamraniLib9TCPServerC5closeyyF",
+            "mangledName": "$s12AlhamraniLib9TCPServerC5closeyyF",
+            "moduleName": "AlhamraniLib",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(address:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TCPServer",
+                "printedName": "AlhamraniLib.TCPServer",
+                "usr": "s:12AlhamraniLib9TCPServerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AlhamraniLib9TCPServerC7address4portACSS_s5Int32Vtcfc",
+            "mangledName": "$s12AlhamraniLib9TCPServerC7address4portACSS_s5Int32Vtcfc",
+            "moduleName": "AlhamraniLib",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AlhamraniLib9TCPServerC",
+        "mangledName": "$s12AlhamraniLib9TCPServerC",
+        "moduleName": "AlhamraniLib",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:12AlhamraniLib6SocketC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AlhamraniLib.Socket"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Applications\/Mobile Project\/AlhamraniLib\/AlhamraniLib\/AlhamraniLib.swift",
+      "kind": "BooleanLiteral",
+      "offset": 393,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Applications\/Mobile Project\/AlhamraniLib\/AlhamraniLib\/AlhamraniLib.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Applications\/Mobile Project\/AlhamraniLib\/AlhamraniLib\/TCPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5223,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Applications\/Mobile Project\/AlhamraniLib\/AlhamraniLib\/TCPClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6673,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
